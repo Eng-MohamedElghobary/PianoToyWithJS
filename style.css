@@ -1,0 +1,65 @@
+* {
+    margin: 2px;
+    padding: 1px 2px 0px 2px;
+    background-color:gho
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace;
+  }
+  
+  .MyApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Music {
+    text-align: center;
+  }
+
+  .pads > div {
+    height: 320px;
+    width: 100px;
+    flex: 1;
+  }
+  
+  .pads {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+  }
+
+
+.pad1 {
+    background: blue;
+}
+.pad2 {
+    background:tomato;
+}
+.pad3 {
+    background:gray;
+}
+.pad4 {
+    background:yellow;
+}
+.pad5 {
+    background:red;
+}
+.pad6 {
+    background: blueviolet;
+}
+.pad7 {
+    background: goldenrod;
+}
+.pad8 {
+    background: blanchedalmond;
+}
+.pad9 {
+    background: hotpink;
+}
+.pad10 {
+    background: navy;
+}
